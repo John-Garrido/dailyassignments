@@ -1,28 +1,28 @@
 # Command Line Day 1 Part 1
-## Introduction to repl.it
-Welcome to the repl.it assignments! In each assignment there will be a file called `instructions.md` where you will find the instructions for that specific assignment.
+Introduction to Terminal Commands (Mac and Windows)
+Welcome to the assignments! For each task, you’ll find detailed instructions in a file called instructions.md, which you can follow directly from your computer’s terminal or command line interface (CLI).
 
-To the right you will see the console. Please keep in mind this **is not the terminal.** You may be tempted to try out the commands you just learned in this console but they will not work!
-
-Instead it is important that for every single assignment you open up the terminal using `cmd+shift+s` if you are on a mac or `ctrl+shift+s` if you are running windows.
-
-Once you have done this you should have a terminal pop up in the bottom right hand side of your screen. Here you can test out ALL the commands you have learned today!
+## Accessing the Terminal:
+On a Mac, open the Terminal app by going to Applications > Utilities > Terminal or using Spotlight (cmd + space and type "Terminal").
+On Windows, open Command Prompt or PowerShell by typing cmd or powershell in the Start menu search bar. Alternatively, you can use Windows Subsystem for Linux (WSL) if you have it installed.
 
 ## Print Working Directory - pwd
-Very first thing you are going to learn is how to see what directory you are currently in. 
+The first thing you’ll learn is how to check which directory you are currently in. This is important because many commands rely on the context of your current directory.
 
-Go ahead and type `pwd` and then press enter.
+Open your terminal (Mac: cmd + space > "Terminal"; Windows: Search for "cmd" or "PowerShell").
 
-The output in the bottom terminal should be --> `/home/runner/Command-Line-Day-1-Pt-1`
+Type the following command and press Enter:
+```
+  pwd
+```
+The output will show the current directory you're in, which might look something like this
 
-This tells you that you are in the 'Command-Line-Day-1-Pt-1' directory which is in the 'runner' directory which is in the 'home' directory.
-*Note: The words `directory` and `folder` are interchangeable and mean the same thing. In this example it could also be said that you are in theCommand-Line-Day-1-Pt-1 folder which is in the runner folder which is in the home folder.*
+```
+/Users/YourName/Projects/Command-Line-Day-1-Pt-1
+```
+This means you're inside the Command-Line-Day-1-Pt-1 folder, located within the Projects folder in your user directory.
 
-Visually it looks like this:
-/home
----/runner
-------/Command-Line-Day-1-Pt-1
----------You are here
+Now that you've learned how to find your current directory using pwd, you can continue to the next tasks where you'll learn how to navigate directories, create files, and more. Always remember to use the terminal on your Mac or Windows system for these exercises.
 
 ## List - ls
 What `ls` does is lists what files and directories are in your current scope. Which right now you are in the runner directory. Go ahead and type `ls` press enter.
